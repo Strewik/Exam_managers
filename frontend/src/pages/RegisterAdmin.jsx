@@ -1,8 +1,8 @@
+import AdminForm from "../components/AdminForm";
+
 const RegisterAdmin = () => {
   return (
-    <div>
-      Register Admin
-    </div>
+    <AdminForm route="/api/user/register/" method="register" />
   )
 }
 

@@ -1,6 +1,8 @@
+import AdminForm from "../components/AdminForm"
+
 const Login = () => {
   return (
-    <div>Login</div>
+    <AdminForm route="/api/token/" method="login" />
   )
 }
 
